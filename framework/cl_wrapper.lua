@@ -1,6 +1,6 @@
 function Framework()
 	if Config.framework == 'ESX' then
-		ESX = exports['es_extended']:getSharedObject()
+		ESX = exports["es_extended"]:getSharedObject()
 		PlayerData = ESX.GetPlayerData()
 	elseif Config.framework == 'QBCORE' then
 		QBCore = exports['qb-core']:GetCoreObject()
